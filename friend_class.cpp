@@ -1,4 +1,4 @@
-#include<iostream>
+#include<bits/stdc++.h>
 using namespace std;
 class twovalues{
 	int a,b;
@@ -15,7 +15,7 @@ public:
 };
 int Min::min(twovalues x)
 {
-	return x.a <x.b ? x.a:x.b;
+	return min(x.a, x.b);
 
 }
 int main()
